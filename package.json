@@ -1,8 +1,8 @@
 {
-  "name": "@opinionated-ts/template",
+  "name": "@opinionated-ts/package-template",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opinionated-ts/template.git"
+    "url": "git+https://github.com/opinionated-ts/package-template.git"
   },
   "type": "module",
   "scripts": {
