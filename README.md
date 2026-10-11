@@ -78,7 +78,7 @@ At minimum, update:
 - `name` — your package name
 - `repository.url` — your repository URL
 
-Additional package metadata may be required depending on how the project is distributed.
+Update the `version` field before publishing. The template starts at `0.0.0` as a placeholder.
 
 ## What's included
 
@@ -88,11 +88,14 @@ The package template inherits the tooling, conventions, and project foundation p
 
 ### Package development foundation
 
-On top of the base template, it adds the structure and defaults currently being explored for building and distributing TypeScript projects.
+- `tsdown` builds `src/index.ts` as ESM and CommonJS.
+- TypeScript declaration files are generated for both module formats.
+- `package.json` defines conditional exports and publishes only `dist` files.
+- `bun run build` creates a clean production build; `bun run build:watch` watches for changes.
 
-This includes the foundation required for projects that need compilation, bundling, and package-oriented output.
+Add the package's public API to `src/index.ts`. Update the package name, version, and repository metadata before publishing.
 
-The package-specific parts are experimental and subject to change as the approach is validated.
+The package-specific defaults remain experimental and may evolve as the approach is validated.
 
 ## Related projects
 
