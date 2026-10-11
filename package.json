@@ -35,7 +35,7 @@
     "@types/bun": "^1.4.0",
     "@types/node": "^26.2.0",
     "@vitest/coverage-istanbul": "5.0.1",
-    "skills": "^1.7.0",
+    "skills": "^1.7.1",
     "tsdown": "^0.23.1",
     "typescript": "^7.0.2",
     "vitest": "^5.0.1"
