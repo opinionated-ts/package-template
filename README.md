@@ -1,16 +1,8 @@
 # @opinionated-ts/package-template
 
-An experimental TypeScript project template for distributable packages, CLI tools, SDKs, libraries, and other projects that need to be built and packaged for distribution.
+A TypeScript project template for distributable packages, CLI tools, SDKs, libraries, and other projects that need to be built and packaged for distribution.
 
 It is built on top of [`@opinionated-ts/template`](https://github.com/opinionated-ts/template) and provides the same tooling foundation, with additional structure and defaults for package development and distribution.
-
-> [!WARNING]
->
-> This template is currently experimental and under active development.
->
-> The underlying TypeScript tooling foundation is established, but the package development and build approach is still being explored and has not yet been fully validated. The packaging structure, build configuration, and related defaults may change as the approach is refined.
->
-> It is not ready for general use or production projects.
 
 ## When to use this template?
 
@@ -32,11 +24,9 @@ It provides:
 - A foundation for building and distributing TypeScript packages
 - Consistent tooling across Opinionated TS package projects
 
-The package-specific layer is experimental and may evolve significantly as the approach is validated.
-
 ## Getting started
 
-For development and experimentation, clone the repository directly:
+To get started, clone the repository directly:
 
 ```bash
 git clone https://github.com/opinionated-ts/package-template.git my-project
@@ -78,8 +68,6 @@ At minimum, update:
 - `name` — your package name
 - `repository.url` — your repository URL
 
-Update the `version` field before publishing. The template starts at `0.0.0` as a placeholder.
-
 ## What's included
 
 ### TypeScript tooling foundation
@@ -93,9 +81,7 @@ The package template inherits the tooling, conventions, and project foundation p
 - `package.json` defines conditional exports and publishes only `dist` files.
 - `bun run build` creates a clean production build; `bun run build:watch` watches for changes.
 
-Add the package's public API to `src/index.ts`. Update the package name, version, and repository metadata before publishing.
-
-The package-specific defaults remain experimental and may evolve as the approach is validated.
+Add the package's public API to `src/index.ts`. Update the package name and repository metadata before publishing.
 
 ## Related projects
 
