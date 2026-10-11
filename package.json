@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@opinionated-ts/config": "^1.9.1",
-    "@types/bun": "^1.4.0",
+    "@types/bun": "^1.4.2",
     "@types/node": "^26.2.0",
     "@vitest/coverage-istanbul": "5.0.1",
     "skills": "^1.7.0",
