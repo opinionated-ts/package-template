@@ -30,6 +30,10 @@
     "build:watch": "tsdown --watch",
     "start": "bun run build && bun ./dist/index.mjs"
   },
+  "dependencies": {
+    "@opinionated-ts/error-factory": "^1.0.1",
+    "@opinionated-ts/result": "^1.0.0"
+  },
   "devDependencies": {
     "@opinionated-ts/config": "^1.9.1",
     "@types/bun": "^1.4.0",
