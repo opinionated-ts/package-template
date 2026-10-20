@@ -4,6 +4,9 @@ A TypeScript project template for distributable packages, CLI tools, SDKs, libra
 
 It is built on top of [`@opinionated-ts/template`](https://github.com/opinionated-ts/template) and provides the same tooling foundation, with additional structure and defaults for package development and distribution.
 
+> [!NOTE]
+> **Deprecation notice for new projects:** We're working toward on-demand template creation to reduce cross-repository maintenance and keep shared improvements and release notes aligned. This template remains usable and may continue to receive updates. [Read the rationale and follow the transition](https://github.com/opinionated-ts/template/discussions/5).
+
 ## When to use this template?
 
 Use this template when developing a TypeScript project that needs to be built and packaged for distribution.
